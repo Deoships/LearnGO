@@ -1,0 +1,1 @@
+This is a simple to-do list management app that allows you to add, delete, edit and toggle task status, as well as save and load data from a file json. **The app can be controlled entirely through the terminal using various commands.**
