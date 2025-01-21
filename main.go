@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("inside todo")
+	todos := Todos{}
+	todos.add("Купить хлеб")
+	todos.add("Сделать зарядку")
+	todos.toggle(0)
+	todos.print()
 }
